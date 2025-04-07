@@ -16,6 +16,7 @@ export default function Home() {
   const [activeStyleFilter, setActiveStyleFilter] = useState<string>("All")
 
   // Get unique architecture types for the filter
+  // check
   const architectureTypes = ["All", ...Array.from(new Set(architectureData.map((item) => item.type)))].sort()
 
   // Get unique countries for the filter
