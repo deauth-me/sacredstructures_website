@@ -12,30 +12,7 @@ export default function ContactPage() {
   return (
     <div className="min-h-screen bg-background">
        <SiteHeader />
-      <header className="sticky top-0 z-10 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
-        <div className="container flex h-16 items-center">
-          <Link href="/" className="font-serif text-xl font-bold">
-            Sacred Structures
-          </Link>
-          <nav className="ml-auto flex gap-4 sm:gap-6">
-            <Link href="/" className="text-sm font-medium text-muted-foreground">
-              Home
-            </Link>
-            <Link href="/about" className="text-sm font-medium text-muted-foreground">
-              About
-            </Link>
-            <Link href="/theory" className="text-sm font-medium text-muted-foreground">
-              Theory
-            </Link>
-            <Link href="/blog" className="text-sm font-medium text-muted-foreground">
-              Blog
-            </Link>
-            <Link href="/contact" className="text-sm font-medium underline underline-offset-4">
-              Contact
-            </Link>
-          </nav>
-        </div>
-      </header>
+      
 
       <main className="container py-8">
         <Link href="/" className="inline-flex items-center gap-2 mb-6 text-sm font-medium">
