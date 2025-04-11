@@ -379,7 +379,7 @@ export default function ArchitecturePage({ params }: { params: { id: string } })
         </Tabs>
 
         <div className="mt-12">
-          <h2 className="font-serif text-2xl font-bold mb-6">More Sacred Architecture</h2>
+          <h2 className="font-serif text-2xl font-bold mb-6">Explore</h2>
           <div className="grid gap-6 grid-cols-2 sm:grid-cols-3 lg:grid-cols-4">
             {architectureData
               .filter((item) => item.id !== architecture.id)
