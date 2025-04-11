@@ -3,6 +3,7 @@ import { ArrowLeft } from "lucide-react";
 import Image from "next/image";
 
 import { Separator } from "@/components/ui/separator";
+import { SiteHeader } from "@/components/site-header"
 
 export default function AboutPage() {
   return (
