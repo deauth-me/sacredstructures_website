@@ -18,7 +18,7 @@ export default function AboutPage() {
         </Link>
 
         <div className="max-w-3xl mx-auto">
-          <h1 className="font-serif text-4xl font-bold mb-6">About Sacred Architecture</h1>
+          <h1 className="font-serif text-4xl font-bold mb-6">Sacred Structures</h1>
 
           <div className="aspect-video relative rounded-lg overflow-hidden mb-8">
             <Image
