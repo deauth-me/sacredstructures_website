@@ -7,6 +7,51 @@ import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import { Card, CardContent } from "@/components/ui/card"
 import { Separator } from "@/components/ui/separator"
 import { SiteHeader } from "@/components/site-header"
+import { ImageSlideshow } from "@/components/image-slideshow"
+
+// Add this function before the architectureData array
+function getAdditionalImages(architecture: any) {
+  // Base image is always included
+  const images = [architecture.imageUrl || "/placeholder.svg"]
+
+  // Check if we have a subfolder with additional images for this building
+  const buildingId = architecture.id
+
+  // These are common views you might have for each building
+  const commonViews = ["interior", "altar", "dome", "facade", "detail"]
+
+  // Try to add real images if they exist
+  try {
+    // In a real Next.js app, you would use the fs module on the server side
+    // to check if these files exist. For this demo, we'll assume they might exist
+    // and provide a fallback to placeholders if they don't.
+
+    // Add 3-5 additional images (either real or placeholders)
+    for (let i = 0; i < commonViews.length; i++) {
+      const view = commonViews[i]
+      const imagePath = `/images/${buildingId}/${view}.jpg`
+
+      // In a real app, you would check if this file exists
+      // For now, we'll add it and let the Image component handle missing files
+      images.push(imagePath)
+
+      // Limit to 5 total images (1 main + 4 additional)
+      if (images.length >= 5) break
+    }
+  } catch (error) {
+    console.error("Error loading additional images:", error)
+
+    // Fallback to placeholders if there's an error
+    const numAdditionalImages = Math.min(4, Math.floor(Math.random() * 3) + 2) // 2 to 4 images
+    for (let i = 0; i < numAdditionalImages; i++) {
+      const width = 800 + i * 100
+      const height = 600 + i * 75
+      images.push(`/placeholder.svg?height=${height}&width=${width}`)
+    }
+  }
+
+  return images
+}
 
 export default function ArchitecturePage({ params }: { params: { id: string } }) {
   // Find the architecture item by ID
@@ -26,8 +71,7 @@ export default function ArchitecturePage({ params }: { params: { id: string } })
 
   return (
     <div className="min-h-screen bg-background">
-       <SiteHeader />
-     
+      <SiteHeader />
 
       <main className="container py-8">
         <Link href="/" className="inline-flex items-center gap-2 mb-6 text-sm font-medium">
@@ -36,16 +80,7 @@ export default function ArchitecturePage({ params }: { params: { id: string } })
         </Link>
 
         <div className="grid gap-8 md:grid-cols-2">
-          <div className="aspect-[4/3] relative rounded-lg overflow-hidden">
-            <Image
-              src={architecture.imageUrl || "/placeholder.svg"}
-              alt={architecture.name}
-              className="object-cover"
-              fill
-              sizes="(max-width: 768px) 100vw, 50vw"
-              priority
-            />
-          </div>
+          <ImageSlideshow images={getAdditionalImages(architecture)} alt={architecture.name} />
 
           <div>
             <div className="inline-block bg-primary/10 text-primary px-3 py-1 rounded-full text-sm font-medium mb-4">
@@ -1013,7 +1048,7 @@ const architectureData = [
     architecturalStyle: "Italian Baroque",
     features: ["Borromini design", "Undulating facade", "Complex geometric plan", "Oval dome"],
   },
-   {
+  {
     id: "sant-ivo-alla-sapienza",
     name: "Sant'Ivo alla Sapienza",
     type: "Church",
@@ -1273,7 +1308,7 @@ const architectureData = [
     architecturalStyle: "Spanish Renaissance, Baroque with Andean influences",
     features: ["Silver altar", "Cusco School paintings", "Cedar choir stalls", "Chapel of the Señor de los Temblores"],
   },
-    // New Baroque churches from Central Europe
+  // New Baroque churches from Central Europe
   {
     id: "st-nicholas-church-prague",
     name: "St. Nicholas Church",
@@ -1409,6 +1444,6 @@ const architectureData = [
     yearBuilt: "1998-2001",
     architecturalStyle: "Contemporary Minimalist",
     features: ["Glass facade", "Vertical arrangement", "Urban integration", "Minimalist interior"],
-  }
+  },
 ]
 
