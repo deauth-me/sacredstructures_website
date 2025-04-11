@@ -9,6 +9,7 @@ import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
 import { DropdownMenu, DropdownMenuContent, DropdownMenuItem, DropdownMenuTrigger } from "@/components/ui/dropdown-menu"
 import { Badge } from "@/components/ui/badge"
+import { SiteHeader } from "@/components/site-header"
 
 export default function Home() {
   const [activeFilter, setActiveFilter] = useState<string>("All")
@@ -66,6 +67,7 @@ export default function Home() {
 
   return (
     <div className="min-h-screen bg-background">
+       <SiteHeader />
       <header className="sticky top-0 z-10 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
         <div className="container flex h-16 items-center">
           <Link href="/" className="font-serif text-xl font-bold">
