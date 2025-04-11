@@ -4,6 +4,7 @@ import Image from "next/image"
 
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card"
 import { Separator } from "@/components/ui/separator"
+import { SiteHeader } from "@/components/site-header"
 
 export default function BlogPage() {
   return (
