@@ -1152,18 +1152,6 @@ const architectureData = [
   features: ["Grotto", "Prayer in many languages", "Mount of Olives", "Carmelite monastery"],
 },
 {
-  id: "abbey-of-the-dormition",
-  name: "Abbey of the Dormition",
-  type: "Abbey",
-  location: "Jerusalem, Israel",
-  imageUrl: "/images/abbey-of-the-dormition.jpg",
-  period: "Modern Romanesque Revival",
-  description: "Perched on Mount Zion, this abbey marks the traditional site of the Virgin Mary's death. It is one of the most significant Christian landmarks in Jerusalem.",
-  yearBuilt: "1900–1910",
-  architecturalStyle: "Romanesque Revival",
-  features: ["Domed rotunda", "Crypt with statue of Mary", "German Benedictine order", "Panoramic views"],
-},
-{
   id: "dominican-church-vienna",
   name: "Dominican Church (St. Maria Rotunda)",
   type: "Church",
