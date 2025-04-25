@@ -10,7 +10,28 @@ export default function TheoryPage() {
   return (
     <div className="min-h-screen bg-background">
       <SiteHeader />
-      
+      <header className="sticky top-0 z-10 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
+        <div className="container flex h-16 items-center">
+          <Link href="/" className="font-serif text-xl font-bold">
+            Sacred Structures
+          </Link>
+          <nav className="ml-auto flex gap-4 sm:gap-6">
+            <Link href="/" className="text-sm font-medium text-muted-foreground">
+              Home
+            </Link>
+            <Link href="/about" className="text-sm font-medium text-muted-foreground">
+              About
+            </Link>
+            <Link href="/theory" className="text-sm font-medium underline underline-offset-4">
+              Theory
+            </Link>
+            <Link href="/blog" className="text-sm font-medium text-muted-foreground">
+              Blog
+            </Link>
+            <Link href="/contact" className="text-sm font-medium text-muted-foreground">Contact</Link>
+          </nav>
+        </div>
+      </header>
 
       <main className="container py-8">
         <Link href="/" className="inline-flex items-center gap-2 mb-6 text-sm font-medium">
@@ -21,7 +42,7 @@ export default function TheoryPage() {
         <div className="max-w-4xl mx-auto">
           <h1 className="font-serif text-4xl font-bold mb-2">Architectural Theory</h1>
           <p className="text-xl text-muted-foreground mb-8">
-            Understanding the principles behind sacred structures
+            Understanding the principles behind Catholic sacred spaces
           </p>
 
           <div className="prose max-w-none mb-12">
@@ -178,40 +199,6 @@ export default function TheoryPage() {
                   </span>
                 </div>
               </div>
-
-              <div className="space-y-8 mb-12">
-            <div className="grid gap-6 md:grid-cols-2 items-center">
-              <div className="aspect-[4/3] relative rounded-lg overflow-hidden">
-                <Image
-                  src="/images/st-marks-basilica.jpg"
-                  alt="Byzantine Architecture"
-                  className="object-cover"
-                  fill
-                  sizes="(max-width: 768px) 100vw, 384px"
-                />
-              </div>
-              <div>
-                <h3 className="text-xl font-bold mb-2">Byzantine (5th-15th centuries)</h3>
-                <p className="text-muted-foreground mb-4">
-                  Characterized by domed structures, rich mosaics, and a focus on creating a mystical atmosphere through
-                  light and decoration. Byzantine churches often feature a central dome representing heaven above a
-                  square base representing earth.
-                </p>
-                <div className="flex gap-2">
-                  <span className="bg-secondary text-secondary-foreground text-xs px-2.5 py-1 rounded-md">
-                    Central dome
-                  </span>
-                  <span className="bg-secondary text-secondary-foreground text-xs px-2.5 py-1 rounded-md">Mosaics</span>
-                  <span className="bg-secondary text-secondary-foreground text-xs px-2.5 py-1 rounded-md">
-                    Pendentives
-                  </span>
-                </div>
-              </div>
-            </div>
-
-            <Separator />
-
-              
             </div>
           </div>
 
@@ -263,3 +250,4 @@ export default function TheoryPage() {
     </div>
   )
 }
+
