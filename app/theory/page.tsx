@@ -9,7 +9,7 @@ import { SiteHeader } from "@/components/site-header"
 // Removed the documents array as per the shift in focus
 
 export default function TheoryPage() {
-  return (
+  return(
     <div className="min-h-screen bg-background">
       <SiteHeader />
       <header className="sticky top-0 z-10 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
