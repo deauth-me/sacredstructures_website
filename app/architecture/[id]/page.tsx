@@ -1850,6 +1850,102 @@ const architectureData = [
     "yearBuilt": "1656-1658",
     "architecturalStyle": "Romanian Baroque",
     "features": ["Relics of Saint Demetrius", "Iconostasis", "Historical significance", "Central location"]
+  },
+  {
+    id: "cluny-abbey",
+    name: "Cluny Abbey",
+    type: "Monastery",
+    location: "Cluny, France",
+    imageUrl: "/images/cluny-abbey.jpg",
+    period: "Romanesque",
+    description: "Formerly the largest monastery in the Western world, Cluny Abbey was a major center of monastic life and a powerful influence on the Church during the Middle Ages. Though largely destroyed after the French Revolution, its remains showcase impressive Romanesque architecture.",
+    yearBuilt: "910 (major construction 10th-12th centuries)",
+    architecturalStyle: "Romanesque",
+    features: ["Remains of a vast basilica", "Cluniac order motherhouse", "Influential monastic reforms"]
+  },
+  {
+    id: "fountains-abbey",
+    name: "Fountains Abbey",
+    type: "Monastery",
+    location: "North Yorkshire, England",
+    imageUrl: "/images/fountains-abbey.jpg",
+    period: "Medieval",
+    description: "One of the largest and best-preserved ruined Cistercian monasteries in England. Its Gothic architecture and picturesque setting in the Studley Royal Park make it a UNESCO World Heritage site.",
+    yearBuilt: "1132",
+    architecturalStyle: "Gothic",
+    features: ["Extensive ruins", "Cistercian architecture", "Water gardens setting"]
+  },
+  {
+    id: "kylemore-abbey",
+    name: "Kylemore Abbey",
+    type: "Monastery",
+    location: "Connemara, Ireland",
+    imageUrl: "/images/kylemore-abbey.jpg",
+    period: "Victorian",
+    description: "Originally a castle built in the Victorian era, it became a Benedictine abbey for nuns fleeing Belgium in World War I. Known for its stunning location on a lake, Gothic church, and Victorian walled garden.",
+    yearBuilt: "1867-1871 (became abbey in 1920)",
+    architecturalStyle: "Gothic Revival",
+    features: ["Lakeside setting", "Neo-Gothic church", "Victorian walled garden"]
+  },
+  {
+    id: "meteora-monasteries",
+    name: "Meteora Monasteries",
+    type: "Monasteries Complex",
+    location: "Thessaly, Greece",
+    imageUrl: "/images/meteora-monasteries.jpg",
+    period: "Medieval",
+    description: "A complex of Eastern Orthodox monasteries built on impressive natural sandstone pillars. Historically accessible only by climbing or winch, they are a UNESCO World Heritage site and a unique example of isolation and faith.",
+    yearBuilt: "14th-16th centuries (peak construction)",
+    architecturalStyle: "Byzantine",
+    features: ["Built on rock pillars", "Remote and inaccessible locations", "Byzantine frescoes"]
+  },
+  {
+    id: "st-catherines-monastery-sinai",
+    name: "Saint Catherine's Monastery",
+    type: "Monastery",
+    location: "Mount Sinai, Egypt",
+    imageUrl: "/images/st-catherines-monastery-sinai.jpg",
+    period: "Byzantine",
+    description: "One of the oldest continuously inhabited Christian monasteries in the world, located at the foot of Mount Sinai. It is a UNESCO World Heritage site and houses a vast collection of ancient manuscripts and icons.",
+    yearBuilt: "6th century",
+    architecturalStyle: "Byzantine",
+    features: ["Fortified walls", "Burning Bush site", "Ancient library", "Byzantine mosaics"]
+  },
+  {
+    id: "kykkos-monastery",
+    name: "Kykkos Monastery",
+    type: "Monastery",
+    location: "Troodos Mountains, Cyprus",
+    imageUrl: "/images/kykkos-monastery.jpg",
+    period: "Byzantine (founded), current buildings later",
+    description: "A wealthy and well-known Orthodox monastery in Cyprus, famous for housing one of the three icons of the Virgin Mary attributed to Apostle Luke. The current buildings are not the originals due to fires, but it remains a major pilgrimage site.",
+    yearBuilt: "11th century (founded)",
+    architecturalStyle: "Byzantine (influence), later additions",
+    features: ["Icon of the Virgin Mary", "Mountain setting", "Ornate decoration"]
+  },
+  {
+    id: "lerins-abbey",
+    name: "Lérins Abbey",
+    type: "Monastery",
+    location: "Île Saint-Honorat, France",
+    imageUrl: "/images/lerins-abbey.jpg",
+    period: "Medieval",
+    description: "A Cistercian monastery located on a small island off the coast of Cannes. Founded in the 5th century, it has a rich history and is known for its fortified monastery building and winemaking tradition.",
+    yearBuilt: "5th century (founded), fortified monastery 11th-14th centuries",
+    architecturalStyle: "Romanesque, Gothic (fortified elements)",
+    features: ["Island setting", "Fortified monastery tower", "Vineyards", "Ancient chapels"]
+  },
+    {
+    id: "skellig-michael",
+    name: "Skellig Michael",
+    type: "Monastery (Ruins)",
+    location: "County Kerry, Ireland",
+    imageUrl: "/images/skellig-michael.jpg",
+    period: "Early Medieval",
+    description: "A remarkably well-preserved monastic complex situated on a steep, rocky island off the coast of Ireland. This UNESCO World Heritage site offers a glimpse into the austere life of early Christian monks.",
+    yearBuilt: "6th-8th centuries",
+    architecturalStyle: "Early Christian",
+    features: ["Beehive huts", "Steep stone steps", "Isolated island setting", "Oratories"]
   }
 ];
 
