@@ -1378,5 +1378,175 @@ const architectureData = [
     yearBuilt: "6th-8th centuries",
     architecturalStyle: "Early Christian",
     features: ["Beehive huts", "Steep stone steps", "Isolated island setting", "Oratories"]
+  },
+  {
+    "id": "roskilde-cathedral",
+    "name": "Roskilde Cathedral",
+    "type": "Cathedral",
+    "location": "Roskilde, Denmark",
+    "imageUrl": "/images/roskilde-cathedral.jpg",
+    "period": "Gothic (primarily), Romanesque elements",
+    "description": "Scandinavia's first Gothic cathedral built of brick, a UNESCO World Heritage site, and the traditional burial site for Danish monarchs since the 15th century. It showcases a blend of Romanesque and Gothic styles with later additions.",
+    "yearBuilt": "12th - 13th centuries (consecrated 1280), additions through 20th century",
+    "architecturalStyle": "Gothic, Romanesque, various later styles in chapels",
+    "features": [
+      "Brick Gothic architecture",
+      "Royal burial site",
+      "Multiple chapels in various styles",
+      "UNESCO World Heritage site"
+    ]
+  },
+  {
+    "id": "grundtvigs-church",
+    "name": "Grundtvig's Church",
+    "type": "Church",
+    "location": "Copenhagen, Denmark",
+    "imageUrl": "/images/grundtvigs-church.jpg",
+    "period": "Modern (Expressionist)",
+    "description": "A striking church designed as a memorial to Danish philosopher and pastor N.F.S. Grundtvig. Known for its unique architectural style, a blend of Expressionist and Gothic influences, built primarily from yellow bricks.",
+    "yearBuilt": "1921-1940",
+    "architecturalStyle": "Expressionist, Gothic Revival",
+    "features": [
+      "Monumental scale",
+      "Yellow brick facade",
+      "Stepped gable reminiscent of a church organ",
+      "Modern interpretation of Gothic forms"
+    ]
+  },
+  {
+    "id": "nidaros-cathedral",
+    "name": "Nidaros Cathedral",
+    "type": "Cathedral",
+    "location": "Trondheim, Norway",
+    "imageUrl": "/images/nidaros-cathedral.jpg",
+    "period": "Gothic, Romanesque",
+    "description": "Built over the burial site of King Olav II, it is the most important church in Norway and the traditional site for the consecration of Norwegian monarchs. It features a mix of Romanesque and Gothic styles, with impressive sculptures and stained glass.",
+    "yearBuilt": "1070 - c. 1300 (ongoing restoration)",
+    "architecturalStyle": "Gothic, Romanesque",
+    "features": [
+      "National sanctuary of Norway",
+      "Pilgrimage destination",
+      "West front with sculpted figures",
+      "Rose window"
+    ]
+  },
+  {
+    "id": "borgund-stave-church",
+    "name": "Borgund Stave Church",
+    "type": "Stave Church",
+    "location": "Lærdal, Norway",
+    "imageUrl": "/images/borgund-stave-church.jpg",
+    "period": "Medieval",
+    "description": "One of the best-preserved of Norway's medieval stave churches, built entirely of wood. Its distinctive multi-tiered roof and carved decorations, including dragon heads, showcase unique Norse architectural traditions.",
+    "yearBuilt": "c. 1180-1250",
+    "architecturalStyle": "Stave church architecture",
+    "features": [
+      "All-wooden construction",
+      "Multi-tiered roof",
+      "Carved dragon heads",
+      "Medieval altar and font"
+    ]
+  },
+  {
+    "id": "uppsala-cathedral",
+    "name": "Uppsala Cathedral",
+    "type": "Cathedral",
+    "location": "Uppsala, Sweden",
+    "imageUrl": "/images/uppsala-cathedral.jpg",
+    "period": "Gothic",
+    "description": "The tallest church building in Scandinavia, built in the French Gothic style. It is the seat of the Archbishop of Uppsala, the primate of Sweden, and contains the tombs of many important Swedish figures.",
+    "yearBuilt": "1272 - 1420 (western end completed mid-15th century, towers 15th/19th century)",
+    "architecturalStyle": "French High Gothic",
+    "features": [
+      "Tallest church in Scandinavia",
+      "French Gothic design",
+      "Royal tombs and memorials",
+      "Twin towers"
+    ]
+  },
+  {
+    "id": "lund-cathedral",
+    "name": "Lund Cathedral",
+    "type": "Cathedral",
+    "location": "Lund, Sweden",
+    "imageUrl": "/images/lund-cathedral.jpg",
+    "period": "Romanesque",
+    "description": "Considered the most important example of Romanesque architecture in the Nordic countries. It has served as an important ecclesiastical center and features an impressive crypt and a medieval astronomical clock.",
+    "yearBuilt": "Founded 1104 (consecrated 1145, major rebuilding after fire 1234, restoration 19th century)",
+    "architecturalStyle": "Romanesque",
+    "features": [
+      "Romanesque crypt",
+      "Astronomical clock (Horologium mirabile Lundense)",
+      "Impressive facade with towers",
+      "Historic ecclesiastical center"
+    ]
+  },
+  {
+    "id": "grossmunster-zurich",
+    "name": "Grossmünster",
+    "type": "Church",
+    "location": "Zurich, Switzerland",
+    "imageUrl": "/images/grossmunster-zurich.jpg",
+    "period": "Romanesque",
+    "description": "A prominent Romanesque-style Protestant church in Zurich, associated with the Swiss Reformation leaders Huldrych Zwingli and Heinrich Bullinger. Known for its twin towers, which are a landmark of the city.",
+    "yearBuilt": "Construction started c. 1100 (inaugurated c. 1220, towers completed 1787)",
+    "architecturalStyle": "Romanesque",
+    "features": [
+      "Twin towers (landmark)",
+      "Association with the Reformation",
+      "Romanesque crypt",
+      "Modern stained glass windows"
+    ]
+  },
+  {
+    "id": "lausanne-cathedral",
+    "name": "Lausanne Cathedral",
+    "type": "Cathedral",
+    "location": "Lausanne, Switzerland",
+    "imageUrl": "/images/lausanne-cathedral.jpg",
+    "period": "Gothic",
+    "description": "Considered one of the most beautiful Gothic monuments in Switzerland, it dominates the skyline of Lausanne's old town. It features a stunning rose window and a richly decorated painted portal.",
+    "yearBuilt": "Construction started 1170 (consecrated 1275)",
+    "architecturalStyle": "Gothic",
+    "features": [
+      "Gothic architecture",
+      "Rose window",
+      "Painted portal",
+      "Panoramic views from the tower"
+    ]
+  },
+  {
+    "id": "bern-cathedral",
+    "name": "Bern Cathedral",
+    "type": "Cathedral",
+    "location": "Bern, Switzerland",
+    "imageUrl": "/images/bern-cathedral.jpg",
+    "period": "Gothic",
+    "description": "Switzerland's tallest cathedral, a masterpiece of late Gothic architecture. Its construction spanned several centuries, and its main portal features a remarkable depiction of the Last Judgment.",
+    "yearBuilt": "Construction started 1421 (tower completed 1893)",
+    "architecturalStyle": "Late Gothic",
+    "features": [
+      "Tallest cathedral in Switzerland",
+      "Last Judgment portal sculpture",
+      "Late Gothic architecture",
+      "UNESCO World Heritage site (as part of Bern's Old Town)"
+    ]
+  },
+  {
+    "id": "st-pierre-cathedral-geneva",
+    "name": "St. Pierre Cathedral",
+    "type": "Cathedral",
+    "location": "Geneva, Switzerland",
+    "imageUrl": "/images/st-pierre-cathedral-geneva.jpg",
+    "period": "Romanesque, Gothic, Neoclassical",
+    "description": "Historically significant as the church of John Calvin, a key figure of the Protestant Reformation. The architecture is primarily Romanesque and Gothic, with later additions, including a Neoclassical facade.",
+    "yearBuilt": "Construction started c. 1160 (completed c. 1252, later additions)",
+    "architecturalStyle": "Romanesque, Gothic, Neoclassical",
+    "features": [
+      "Associated with John Calvin and the Reformation",
+      "Mix of Romanesque and Gothic styles",
+      "Neoclassical facade",
+      "Archaeological site under the cathedral"
+    ]
   }
 ];
