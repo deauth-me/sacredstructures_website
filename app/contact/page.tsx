@@ -49,8 +49,7 @@ export default function ContactPage() {
                 <CardDescription>Call our office</CardDescription>
               </CardHeader>
               <CardContent>
-                <p className="text-sm">+1 (555) 123-4567</p>
-                <p className="text-sm text-muted-foreground mt-1">Mon-Fri, 9am-5pm</p>
+              
               </CardContent>
             </Card>
 
@@ -63,8 +62,7 @@ export default function ContactPage() {
                 <CardDescription>Visit our location</CardDescription>
               </CardHeader>
               <CardContent>
-                <p className="text-sm">123 Sacred Avenue</p>
-                <p className="text-sm">Vatican City, 00120</p>
+                
               </CardContent>
             </Card>
           </div>
