@@ -34,8 +34,8 @@ export default function ContactPage() {
                 <CardDescription>Send us an email</CardDescription>
               </CardHeader>
               <CardContent>
-                <a href="mailto:info@sacredstructures.org" className="text-sm hover:underline">
-                  info@sacredstructures.org
+                <a href="mailto:brazda.m@gmail.com" className="text-sm hover:underline">
+                  brazda.m@gmail.com
                 </a>
               </CardContent>
             </Card>
