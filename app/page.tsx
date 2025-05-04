@@ -1548,5 +1548,88 @@ const architectureData = [
       "Neoclassical facade",
       "Archaeological site under the cathedral"
     ]
+  },
+  {
+    "id": "orval-abbey",
+    "name": "Orval Abbey",
+    "type": "Monastery (Trappist)",
+    "location": "Villers-devant-Orval, Belgium",
+    "imageUrl": "/images/orval-abbey.jpg",
+    "period": "Medieval (ruins), Modern (rebuilt)",
+    "description": "A Cistercian Trappist monastery known for its spiritual life, brewing tradition, and cheese production. The site includes impressive medieval ruins alongside the modern monastery buildings.",
+    "yearBuilt": "Founded 1070 (Cistercian 1132, destroyed 1793, rebuilt 1926-1948)",
+    "architecturalStyle": "Romanesque (ruins), Art Deco (modern)",
+    "features": [
+      "Trappist brewery (Orval beer)",
+      "Cheese production",
+      "Medieval ruins accessible to visitors",
+      "Matilda Fountain legend"
+    ]
+  },
+  {
+    "id": "rochefort-abbey",
+    "name": "Rochefort Abbey",
+    "type": "Monastery (Trappist)",
+    "location": "Rochefort, Belgium",
+    "imageUrl": "/images/rochefort-abbey.jpg",
+    "period": "Medieval (founded), various reconstructions",
+    "description": "Officially the Abbey of Notre-Dame de Saint-Rémy, this secluded Trappist monastery is famous for brewing Rochefort beer within its walls according to monastic tradition.",
+    "yearBuilt": "Founded 1230 (became Trappist 1887, current buildings largely 20th century)",
+    "architecturalStyle": "Various, functional monastic architecture",
+    "features": [
+      "Trappist brewery (Rochefort beer)",
+      "Secluded location",
+      "Life of prayer, silence, and work"
+    ]
+  },
+  {
+    "id": "westvleteren-abbey",
+    "name": "Westvleteren Abbey",
+    "type": "Monastery (Trappist)",
+    "location": "Westvleteren, Belgium",
+    "imageUrl": "/images/westvleteren-abbey.jpg",
+    "period": "19th-20th century (current buildings)",
+    "description": "The Abbey of Saint Sixtus is a Trappist monastery renowned for producing some of the most sought-after beers in the world. The monks live a life focused on prayer, reading, and manual labor.",
+    "yearBuilt": "Founded 1831 (priory 1838, abbey 1871, current church 1968)",
+    "architecturalStyle": "Simple, functional monastic architecture",
+    "features": [
+      "World-famous Trappist brewery (Westvleteren beer)",
+      "Strict monastic life",
+      "Limited beer sales"
+    ]
+  },
+  {
+    "id": "chimay-abbey",
+    "name": "Chimay Abbey",
+    "type": "Monastery (Trappist)",
+    "location": "Scourmont, Belgium",
+    "imageUrl": "/images/chimay-abbey.jpg",
+    "period": "19th century (founded)",
+    "description": "The Abbey of Notre-Dame de Scourmont is a Trappist monastery known globally for its range of Trappist beers and cheeses, produced to support the monastic community and charitable work.",
+    "yearBuilt": "Founded 1850",
+    "architecturalStyle": "Simple monastic architecture",
+    "features": [
+      "Trappist brewery (Chimay beer)",
+      "Trappist cheese dairy",
+      "Guesthouse for retreats",
+      "Visitor center (Espace Chimay)"
+    ]
+  },
+  {
+    "id": "la-trappe-abbey",
+    "name": "La Trappe Abbey (Koningshoeven)",
+    "type": "Monastery (Trappist)",
+    "location": "Berkel-Enschot, Netherlands",
+    "imageUrl": "/images/la-trappe-abbey.jpg",
+    "period": "19th century (founded)",
+    "description": "Officially the Abbey of Our Lady of Koningshoeven, this is one of the few Trappist monasteries outside of Belgium with an Authentic Trappist Product brewery. It was founded by monks who fled France.",
+    "yearBuilt": "Founded 1881",
+    "architecturalStyle": "Neo-Gothic elements, functional monastic architecture",
+    "features": [
+      "Trappist brewery (La Trappe beer)",
+      "Guesthouse",
+      "Brewery tours available",
+      "Part of proceeds for charity"
+    ]
   }
 ];
