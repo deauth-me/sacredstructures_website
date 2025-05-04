@@ -18,7 +18,7 @@ function getAdditionalImages(architecture: any) {
   const buildingId = architecture.id
 
   // These are common views you might have for each building
-  const commonViews = ["interior", "altar", "dome", "facade", "plan"]
+  const commonViews = ["interior", "plan", "altar", "dome", "facade"]
 
   // Try to add real images if they exist
   try {
